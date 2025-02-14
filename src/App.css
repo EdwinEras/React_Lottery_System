@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  justify-content: center;
+  background-color: #FEE600;
+  margin: 100px;
+}
+
+.App-header {
+  background-color: #4CA7DA;
 }
 
 .App-logo {
@@ -13,7 +20,7 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,7 +29,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
@@ -35,4 +42,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.logo {
+  border-style: solid;
+}
+
+.multi-columns {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  border-style: solid;
+  padding: 10px 20px;
+  background-color: #4CA7DA;
+  display: grid;
+  grid-template-columns: repeat(6, 40px);
+  grid-gap: 1rem 1rem;
+  grid-auto-flow: row;
+}
+
+.cash-buttons {
+  border-style: solid;
+  text-align: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 80px);
+  grid-gap: 1rem 1rem;
+  grid-auto-flow: row;
+}
+
+.results {
+  text-align: left;
+  justify-content: left;
+  border-style: solid;
+  border-color: #4CA7DA;
+  border-width: 10px;
 }
