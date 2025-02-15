@@ -20,17 +20,6 @@
   }
 }
 
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
-
 .App-link {
   color: #61dafb;
 }
@@ -44,10 +33,6 @@
   }
 }
 
-.logo {
-  border-style: solid;
-}
-
 .multi-columns {
   text-align: center;
   justify-content: center;
@@ -56,7 +41,6 @@
 }
 
 .container {
-  border-style: solid;
   padding: 10px 20px;
   background-color: #4CA7DA;
   display: grid;
@@ -66,7 +50,6 @@
 }
 
 .cash-buttons {
-  border-style: solid;
   text-align: center;
   justify-content: center;
   display: grid;
